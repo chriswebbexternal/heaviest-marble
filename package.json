@@ -1,0 +1,11 @@
+{
+  "name": "heaviest-marble",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test":"jest --watchAll"
+  },
+  "dependencies": {
+    "jest": "^25.1.0",
+  }
+}
