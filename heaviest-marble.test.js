@@ -1,10 +1,10 @@
   
 // side note:
 // 
-// The easiest solution to this is to send 27 emails to the submission email 
-// cycling through 1-27 but I suspect that wouldn't get candidates anywhere, though
-// if I was on your side I'd setup the other 26 email addresses just to trap people
-// trying to game the riddle ;)
+// The easiest solution to this is to send a bunch of emails to your submission email 
+// cycling through no more than a range of ~20 numbers but I suspect that wouldn't get 
+// candidates anywhere, though if I was on your side I'd setup the other 26 email 
+// addresses just to trap people trying to game the riddle ;)
 
 // we'll need a simple sum routine to compare the sides of the scales
 const sum = (marbles) => marbles.reduce((acc, cur) => acc+cur, 0)
